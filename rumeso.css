@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0f172a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.top {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.top h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.top p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: auto;
+    color: #555;
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    height: 1px;
+    background: #ccc;
+}
+
+.card {
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.down {
+    padding: 20px;
+    text-align: center;
+}
+
+.down h3 {
+    color: #0f172a;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.down p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
